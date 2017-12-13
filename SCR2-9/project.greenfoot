@@ -1,12 +1,17 @@
 #Greenfoot project file
+
 class.E.image=tree3.png
 class.E.superclass=greenfoot.Actor
+class.C.image=elephant.png
+class.C.superclass=greenfoot.Actor
 class.MyWorld.image=alligator.png
 class.MyWorld.superclass=greenfoot.World
 mainWindow.height=574
 mainWindow.width=856
 mainWindow.x=774
 mainWindow.y=245
+mainWindow.x=934
+mainWindow.y=291
 package.numDependencies=0
 package.numTargets=2
 project.charset=UTF-8
@@ -16,6 +21,10 @@ target1.editor.x=571
 target1.editor.y=360
 target1.height=50
 target1.name=E
+target1.editor.x=105
+target1.editor.y=72
+target1.height=50
+target1.name=C
 target1.naviview.expanded=true
 target1.showInterface=false
 target1.type=ClassTarget
