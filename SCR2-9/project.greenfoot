@@ -1,9 +1,8 @@
 #Greenfoot project file
-=\=\=\=\=\=\=
-<<<<<<<=HEAD
->>>>>>>=65a92dfef335d1718e144549901f40753df896a5
 class.A.image=bee.png
 class.A.superclass=greenfoot.Actor
+class.B.image=sheep.png
+class.B.superclass=greenfoot.Actor
 class.C.image=elephant.png
 class.C.superclass=greenfoot.Actor
 class.D.image=rocket.png
@@ -22,7 +21,7 @@ project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
 target1.editor.x=105
-target1.editor.y=52
+target1.editor.y=72
 target1.height=50
 target1.name=D
 target1.naviview.expanded=true
