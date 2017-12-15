@@ -1,7 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=dd4b8d274ec6fc5fbfe7bf88fd9c1f6bb6db1538
+>>>>>>>=af079cb9b54ba2d807c898bcf4c36021dbd8a5da
 class.A.image=bee.png
 class.A.superclass=greenfoot.Actor
 class.B.image=sheep.png
@@ -16,17 +16,8 @@ class.MyWorld.image=alligator.png
 class.MyWorld.superclass=greenfoot.World
 mainWindow.height=574
 mainWindow.width=856
-<<<<<<< HEAD
-mainWindow.x=502
-mainWindow.y=385
-=======
 mainWindow.x=578
-<<<<<<< HEAD
-mainWindow.y=200
-=======
 mainWindow.y=172
->>>>>>> dd4b8d274ec6fc5fbfe7bf88fd9c1f6bb6db1538
->>>>>>> af079cb9b54ba2d807c898bcf4c36021dbd8a5da
 package.numDependencies=0
 package.numTargets=6
 project.charset=UTF-8
@@ -58,18 +49,8 @@ target2.x=10
 target2.y=130
 target3.editor.height=700
 target3.editor.width=900
-<<<<<<< HEAD
-target3.editor.x=1008
-target3.editor.y=192
-=======
-<<<<<<< HEAD
-target3.editor.x=487
-target3.editor.y=269
-=======
 target3.editor.x=947
-target3.editor.y=282
->>>>>>> dd4b8d274ec6fc5fbfe7bf88fd9c1f6bb6db1538
->>>>>>> af079cb9b54ba2d807c898bcf4c36021dbd8a5da
+target3.editor.y=310
 target3.height=50
 target3.name=A
 target3.naviview.expanded=true
