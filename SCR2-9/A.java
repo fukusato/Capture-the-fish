@@ -15,15 +15,26 @@ public class A extends Actor
     public void act() 
     {
 <<<<<<< HEAD
+
+=======
+>>>>>>> 44c5017f0b7f69d38a9308aa937bfe84a5c37554
         if( Greenfoot.isKeyDown( "up" ) ){
-        setRotation(0);
+        setRotation(-90);
         move(1);
 }// Add your action code here.
-=======
+
         if( Greenfoot.isKeyDown( "down" ) ){
         setRotation(90);
         move(1);
 }
->>>>>>> dd4b8d274ec6fc5fbfe7bf88fd9c1f6bb6db1538
+
+<<<<<<< HEAD
+        if( Greenfoot.isKeyDown( "right" ) ){
+        setRotation(0);
+        move(1);
+}
+
+=======
+>>>>>>> 44c5017f0b7f69d38a9308aa937bfe84a5c37554
     }    
 }
