@@ -15,6 +15,11 @@ public class A extends Actor
     public void act() 
     {
 
+        if( Greenfoot.isKeyDown( "left" ) ){
+        setRotation(180);
+        move(4);
+}        
+
         if( Greenfoot.isKeyDown( "up" ) ){
         setRotation(-90);
         move(1);
@@ -24,6 +29,7 @@ public class A extends Actor
         setRotation(90);
         move(1);
 }
+
         if( Greenfoot.isKeyDown( "right" ) ){
         setRotation(0);
         move(1);
