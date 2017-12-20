@@ -16,6 +16,32 @@ class.MyWorld.image=alligator.png
 class.MyWorld.superclass=greenfoot.World
 mainWindow.height=574
 mainWindow.width=856
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+mainWindow.x=213
+mainWindow.y=321
+=======
+<<<<<<< HEAD
+>>>>>>> 68fcac9cd93cd9d085d99bbfa63e10a84c169f4e
+mainWindow.x=502
+mainWindow.y=385
+=======
+mainWindow.x=578
+<<<<<<< HEAD
+<<<<<<< HEAD
+mainWindow.y=200
+=======
+=======
+>>>>>>> 68fcac9cd93cd9d085d99bbfa63e10a84c169f4e
+mainWindow.y=172
+>>>>>>> dd4b8d274ec6fc5fbfe7bf88fd9c1f6bb6db1538
+>>>>>>> af079cb9b54ba2d807c898bcf4c36021dbd8a5da
+=======
+>>>>>>> 72666bad05f6dcee05c79f6d88a45797ebe490e4
 mainWindow.x=113
 mainWindow.y=347
 package.numDependencies=0
