@@ -1,15 +1,15 @@
 import greenfoot.*;
 
 /**
- * Write a description of class FishB here.
+ * Write a description of class Net1 here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class FishB extends Fish
+public class Net1 extends Net
 {
     /**
-     * Act - do whatever the FishB wants to do. This method is called whenever
+     * Act - do whatever the Net1 wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 

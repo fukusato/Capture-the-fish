@@ -1,15 +1,15 @@
 import greenfoot.*;
 
 /**
- * Write a description of class fishA here.
+ * Write a description of class FishA here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class fishA extends Actor
+public class FishA extends Fish
 {
     /**
-     * Act - do whatever the fishA wants to do. This method is called whenever
+     * Act - do whatever the FishA wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
