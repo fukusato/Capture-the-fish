@@ -6,7 +6,7 @@ import greenfoot.*;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class DustB extends Dust
+public class dustB extends Dust
 {
     /**
      * Act - do whatever the DustB wants to do. This method is called whenever
