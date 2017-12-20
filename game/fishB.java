@@ -6,7 +6,7 @@ import greenfoot.*;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class FishB extends Fish
+public class fishB extends Fish
 {
     /**
      * Act - do whatever the FishB wants to do. This method is called whenever

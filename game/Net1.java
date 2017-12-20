@@ -6,7 +6,7 @@ import greenfoot.*;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Net1 extends Net
+public class net1 extends Net
 {
     /**
      * Act - do whatever the Net1 wants to do. This method is called whenever
