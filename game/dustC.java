@@ -1,15 +1,15 @@
 import greenfoot.*;
 
 /**
- * Write a description of class dustC here.
+ * Write a description of class DustC here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class dustC extends Actor
+public class DustC extends Dust
 {
     /**
-     * Act - do whatever the dustC wants to do. This method is called whenever
+     * Act - do whatever the DustC wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
