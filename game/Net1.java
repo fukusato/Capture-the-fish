@@ -23,13 +23,13 @@ public class net1 extends Net
         setRotation(180);
         move(4);
     }
-    if( Greenfoot.isKeyDown( "up" ) ){
+    /*if( Greenfoot.isKeyDown( "up" ) ){
         setRotation(-90);
         move(4);
     }
     if( Greenfoot.isKeyDown( "down" ) ){
         setRotation(90);
         move(4);
-    }
+    }*/
     }    
 }
