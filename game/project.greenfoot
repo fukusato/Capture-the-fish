@@ -1,7 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=54c2cd24ea546c580c015e201b875cd6d8d9ccac
+>>>>>>>=3e3e0f1dd58ffa8994b254d2b8fe20084edeca86
 class.Dust.superclass=greenfoot.Actor
 class.Fish.superclass=greenfoot.Actor
 class.MyWorld.image=river.jpg
@@ -36,8 +36,8 @@ dependency5.to=fishB
 dependency5.type=UsesDependency
 mainWindow.height=946
 mainWindow.width=774
-mainWindow.x=426
-mainWindow.y=162
+mainWindow.x=764
+mainWindow.y=481
 package.numDependencies=0
 package.numTargets=10
 project.charset=UTF-8
@@ -134,8 +134,8 @@ target6.x=100
 target6.y=130
 target7.editor.height=700
 target7.editor.width=900
-target7.editor.x=105
-target7.editor.y=72
+target7.editor.x=863
+target7.editor.y=358
 target7.height=50
 target7.name=net1
 target7.naviview.expanded=true
