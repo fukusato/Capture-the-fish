@@ -1,15 +1,15 @@
 import greenfoot.*;
 
 /**
- * Write a description of class Net here.
+ * Write a description of class Dust here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Net extends Actor
+public class Dust extends Actor
 {
     /**
-     * Act - do whatever the Net wants to do. This method is called whenever
+     * Act - do whatever the Dust wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
