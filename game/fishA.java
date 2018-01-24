@@ -16,5 +16,6 @@ public class fishA extends Fish
     {
         setRotation(90);
         move(1);// Add your action code here.
+        
     }    
 }
