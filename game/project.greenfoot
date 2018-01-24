@@ -1,7 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=3e3e0f1dd58ffa8994b254d2b8fe20084edeca86
+>>>>>>>=e052264c3c8779d9bcbac9d39a769d4b337a5780
 class.Dust.superclass=greenfoot.Actor
 class.Fish.superclass=greenfoot.Actor
 class.MyWorld.image=wet-blue.jpg
@@ -59,28 +59,39 @@ dependency9.to=Dust
 dependency9.type=UsesDependency
 mainWindow.height=946
 mainWindow.width=774
+<<<<<<< HEAD
 mainWindow.x=860
 mainWindow.y=116
 package.numDependencies=12
+=======
+mainWindow.x=108
+mainWindow.y=73
+package.numDependencies=1
+>>>>>>> 1399b55509ac8c53116a8e8fba1dab01617e4a81
 package.numTargets=10
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
-target1.editor.x=105
-target1.editor.y=44
+target1.editor.x=995
+target1.editor.y=201
 target1.height=50
-target1.name=dustA
+target1.name=Net1
 target1.naviview.expanded=true
 target1.showInterface=false
 target1.type=ClassTarget
 target1.typeParameters=
 target1.width=80
-target1.x=160
-target1.y=10
+target1.x=70
+target1.y=70
 target10.editor.height=700
 target10.editor.width=900
+<<<<<<< HEAD
 target10.editor.x=1020
 target10.editor.y=185
+=======
+target10.editor.x=344
+target10.editor.y=216
+>>>>>>> 1399b55509ac8c53116a8e8fba1dab01617e4a81
 target10.height=50
 target10.name=MyWorld
 target10.naviview.expanded=true
@@ -92,23 +103,23 @@ target10.x=70
 target10.y=10
 target2.editor.height=700
 target2.editor.width=900
-target2.editor.x=850
-target2.editor.y=155
+target2.editor.x=105
+target2.editor.y=44
 target2.height=50
-target2.name=dustB
+target2.name=dustA
 target2.naviview.expanded=true
 target2.showInterface=false
 target2.type=ClassTarget
 target2.typeParameters=
 target2.width=80
-target2.x=70
-target2.y=70
+target2.x=160
+target2.y=10
 target3.editor.height=700
 target3.editor.width=900
 target3.editor.x=1020
 target3.editor.y=104
 target3.height=50
-target3.name=Fish
+target3.name=dustB
 target3.naviview.expanded=true
 target3.showInterface=false
 target3.type=ClassTarget
@@ -118,10 +129,15 @@ target3.x=10
 target3.y=130
 target4.editor.height=700
 target4.editor.width=900
+<<<<<<< HEAD
 target4.editor.x=871
 target4.editor.y=24
+=======
+target4.editor.x=105
+target4.editor.y=44
+>>>>>>> 1399b55509ac8c53116a8e8fba1dab01617e4a81
 target4.height=50
-target4.name=Net
+target4.name=Fish
 target4.naviview.expanded=true
 target4.showInterface=false
 target4.type=ClassTarget
@@ -131,36 +147,46 @@ target4.x=100
 target4.y=190
 target5.editor.height=700
 target5.editor.width=900
+<<<<<<< HEAD
 target5.editor.x=850
 target5.editor.y=183
+=======
+target5.editor.x=690
+target5.editor.y=410
+>>>>>>> 1399b55509ac8c53116a8e8fba1dab01617e4a81
 target5.height=50
-target5.name=dustC
+target5.name=Net
 target5.naviview.expanded=true
 target5.showInterface=false
 target5.type=ClassTarget
 target5.typeParameters=
 target5.width=80
-target5.x=160
-target5.y=70
+target5.x=100
+target5.y=130
 target6.editor.height=700
 target6.editor.width=900
 target6.editor.x=850
 target6.editor.y=155
 target6.height=50
-target6.name=fishA
+target6.name=dustC
 target6.naviview.expanded=true
 target6.showInterface=false
 target6.type=ClassTarget
 target6.typeParameters=
 target6.width=80
-target6.x=100
-target6.y=130
+target6.x=160
+target6.y=70
 target7.editor.height=700
 target7.editor.width=900
+<<<<<<< HEAD
 target7.editor.x=939
 target7.editor.y=132
+=======
+target7.editor.x=853
+target7.editor.y=265
+>>>>>>> 1399b55509ac8c53116a8e8fba1dab01617e4a81
 target7.height=50
-target7.name=net1
+target7.name=fishA
 target7.naviview.expanded=true
 target7.showInterface=false
 target7.type=ClassTarget
