@@ -25,18 +25,21 @@ public class Net extends Actor
     public void cat()
     {
         Actor actor = getOneObjectAtOffset( 0, 0, fishA.class );
+        Actor actor2 = getOneObjectAtOffset( 0, 0, fishB.class );
         if( actor != null ){
     // TARO とぶつかった時の処理を書く
-    getWorld().removeObject( actor );
+    //getWorld().removeObject( actor );
     fish++;
     getWorld().showText("score="+fish, 300, 50);
+}
+
     if(fish==10)
     {
         getWorld().showText("Clear score="+fish, 200, 200);
         Greenfoot.stop();
 }       
     }
-    }
+    
        public void move() 
     {
         // Add your action code here.
