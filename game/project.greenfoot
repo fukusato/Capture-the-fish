@@ -1,7 +1,5 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
-<<<<<<<=HEAD
->>>>>>>=e052264c3c8779d9bcbac9d39a769d4b337a5780
 class.Dust.superclass=greenfoot.Actor
 class.Fish.superclass=greenfoot.Actor
 class.MyWorld.image=wet-blue.jpg
@@ -38,8 +36,8 @@ dependency5.to=fishB
 dependency5.type=UsesDependency
 mainWindow.height=946
 mainWindow.width=774
-mainWindow.x=108
-mainWindow.y=73
+mainWindow.x=535
+mainWindow.y=150
 package.numDependencies=1
 package.numTargets=10
 project.charset=UTF-8
