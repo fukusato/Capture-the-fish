@@ -15,5 +15,7 @@ public class fishB extends Fish
     public void act() 
     {
         // Add your action code here.
+        setRotation(90);
+        move(1);// Add your action code here.
     }    
 }
