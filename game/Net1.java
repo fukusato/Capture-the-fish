@@ -13,6 +13,7 @@ public class Net1 extends Net
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     private int fish=0;
+    
     public void cat() 
     {
         Actor actor = getOneObjectAtOffset( 0, 0, Fish.class );
