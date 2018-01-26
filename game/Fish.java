@@ -18,9 +18,8 @@ public class Fish extends Actor
         fish=0;
     }
     public void act() 
-    {
-        // Add your action code here.
-        fish++;
-        getWorld().showText("score="+fish, 300, 50);
+    {   
+        
     }    
+    
 }

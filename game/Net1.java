@@ -23,13 +23,9 @@ public class Net1 extends Net
         setRotation(180);
         move(4);
     }
-    /*if( Greenfoot.isKeyDown( "up" ) ){
-        setRotation(-90);
-        move(4);
+    Actor actor = getOneObjectAtOffset( 0, 0, Fish.class );
+    if( actor != null ){
+        getWorld().removeObject( actor ); // getWorld() は World オブジェクトの getter
     }
-    if( Greenfoot.isKeyDown( "down" ) ){
-        setRotation(90);
-        move(4);
-    }*/
     }    
 }
