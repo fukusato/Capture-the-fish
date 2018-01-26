@@ -13,9 +13,11 @@ public class Fish extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     private int fish;
+   
     public void Fish()
     {
         fish=0;
+        
     }
     public void act() 
     {   

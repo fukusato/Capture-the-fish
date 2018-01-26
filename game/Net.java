@@ -12,10 +12,10 @@ public class Net extends Actor
      * Act - do whatever the Net wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    private int Fish;
+    private int fish;
     public Net()
     {
-        Fish=0;
+        fish=0;
     }
     public void act() 
     {
@@ -24,19 +24,22 @@ public class Net extends Actor
     }
     public void cat()
     {
-        Actor actor = getOneObjectAtOffset( 0, 0, Fish.class );
+        Actor actor = getOneObjectAtOffset( 0, 0, fishA.class );
+        Actor actor2 = getOneObjectAtOffset( 0, 0, fishB.class );
         if( actor != null ){
     // TARO とぶつかった時の処理を書く
-    getWorld().removeObject( actor );
-    Fish++;
-    getWorld().showText("score="+Fish, 300, 50);
-    if(Fish==10)
+    //getWorld().removeObject( actor );
+    fish++;
+    getWorld().showText("score="+fish, 300, 50);
+}
+
+    if(fish==10)
     {
-        getWorld().showText("Clear score="+Fish, 200, 200);
+        getWorld().showText("Clear score="+fish, 200, 200);
         Greenfoot.stop();
 }       
     }
-    }
+    
        public void move() 
     {
         // Add your action code here.

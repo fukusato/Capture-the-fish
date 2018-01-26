@@ -14,7 +14,9 @@ public class fishA extends Fish
      */
     public void act() 
     {
+        if(getY() == 799)getWorld().removeObject( this );
         setRotation(90);
         move(1);// Add your action code here.
+        
     }    
 }
