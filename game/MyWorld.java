@@ -26,14 +26,14 @@ public class MyWorld extends World
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-<<<<<<< HEAD
+
         super(500, 800, 1);
         rtime=1000;
+        addObject( new Net1(), 250, 700 );
         //addObject( new fishA(), 200, 50 );
-        //addObject( new fishA(), 200, 50 );
-        for(int i=0;i<5;i++){
-         int xmax = 600;
-         int xmin = 0;
+        for(int i=0;i<3;i++){
+         int xmax = 400;
+         int xmin = 100;
          int x = xmin + (int)(Math.random()*((xmax-xmin)+1));
          
          int ymax = 400;
@@ -42,9 +42,9 @@ public class MyWorld extends World
          
          addObject( new fishA(),x , y );
     }
-    for(int i=0;i<5;i++){
-         int xmax = 600;
-         int xmin = 0;
+    for(int i=0;i<3;i++){
+         int xmax = 400;
+         int xmin = 100;
          int x = xmin + (int)(Math.random()*((xmax-xmin)+1));
          
          int ymax = 400;
@@ -53,9 +53,9 @@ public class MyWorld extends World
          
          addObject( new fishB(),x , y );
     }    
-    for(int i=0;i<5;i++){
-         int xmax = 600;
-         int xmin = 0;
+    for(int i=0;i<3;i++){
+         int xmax = 400;
+         int xmin = 100;
          int x = xmin + (int)(Math.random()*((xmax-xmin)+1));
          
          int ymax = 400;
@@ -64,9 +64,9 @@ public class MyWorld extends World
          
          addObject( new dustA(),x , y );
     }
-    for(int i=0;i<5;i++){
-         int xmax = 600;
-         int xmin = 0;
+    for(int i=0;i<3;i++){
+         int xmax = 400;
+         int xmin = 100;
          int x = xmin + (int)(Math.random()*((xmax-xmin)+1));
          
          int ymax = 400;
@@ -75,9 +75,9 @@ public class MyWorld extends World
          
          addObject( new dustB(),x , y );
     }
-    for(int i=0;i<5;i++){
-         int xmax = 600;
-         int xmin = 0;
+    for(int i=0;i<3;i++){
+         int xmax = 400;
+         int xmin = 100;
          int x = xmin + (int)(Math.random()*((xmax-xmin)+1));
          
          int ymax = 400;
@@ -85,11 +85,10 @@ public class MyWorld extends World
          int y = ymin + (int)(Math.random()*((ymax-ymin)+1));
          
          addObject( new dustC(),x , y );
-    }    
-=======
-        super(500, 800, 1); 
+    }
+    
+  
         showText( "HOGE", 100, 50 );
         addObject( new fishA(), 200, 50 );        
->>>>>>> 1399b55509ac8c53116a8e8fba1dab01617e4a81
     }
 }
