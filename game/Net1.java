@@ -32,6 +32,8 @@ public class Net1 extends Net
             getWorld().showText("Score="+fish,200, 100);
 
         }
-        
-    }    
+
+
+    }
 }
+

@@ -19,9 +19,9 @@ public class Fish extends Actor
         fish=0;
         
     }
-    /*public void act() 
-    {
-        //Actor actor = getOneObjectAtOffset( 0, 0, Fish.class );
-   
-    }*/    
+    public void act() 
+    {   
+        
+    }    
+    
 }
