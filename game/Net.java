@@ -20,31 +20,27 @@ public class Net extends Actor
     public void act() 
     {
        move();
-        cat();// Add your action code here.
+       cat(); // Add your action code here.
     }
-    public void cat()
+    public void cat() 
     {
-    
+       
     }
+
     
        public void move() 
     {
         // Add your action code here.
-             if( Greenfoot.isKeyDown( "right" ) ){
-        setRotation(0);
-        move(4);
-}
+int x = getX();
+int y = getY();
 if( Greenfoot.isKeyDown( "left" ) ){
-        setRotation(180);
-        move(4);
+   setLocation( x-1,y );
+   move(-2);
 }
-/*if( Greenfoot.isKeyDown( "up" ) ){
-        setRotation(-90);
-        move(4);
+if( Greenfoot.isKeyDown( "right" ) ){
+   setLocation( x+1,y );
+
+   move(2);
 }
-if( Greenfoot.isKeyDown( "down" ) ){
-        setRotation(90);
-        move(4);
-}*/
 }
 }

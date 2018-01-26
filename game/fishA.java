@@ -24,16 +24,7 @@ public class fishA extends Fish
     //}
         if(y1==799){
             getWorld().removeObject( this );
-             int xmax = 400;
-         int xmin = 100;
-         int x = xmin + (int)(Math.random()*((xmax-xmin)+1));
-         
-         int ymax = 400;
-         int ymin = 0;
-         int y = ymin + (int)(Math.random()*((ymax-ymin)+1));
-         
-         getWorld().addObject( new fishA(),x , y );
-        
+    
     }
 }
 }
