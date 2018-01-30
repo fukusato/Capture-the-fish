@@ -15,7 +15,7 @@ public class dustA extends Dust
     public void act() 
     {
         // Add your action code here.
-        
+        if(getY() == 799)getWorld().removeObject( this );
         setRotation(90);
         move(1);// Add your action code here.
     }    
