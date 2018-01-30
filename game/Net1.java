@@ -32,21 +32,6 @@ public class Net1 extends Net
             getWorld().showText("Score="+fish,200, 100);
 
         }
-        /*    if( Greenfoot.isKeyDown( "right" ) ){
-        setRotation(0);
-        move(4);
-        }
-        if( Greenfoot.isKeyDown( "left" ) ){
-        setRotation(180);
-        move(4);
-        }
-        /*if( Greenfoot.isKeyDown( "up" ) ){
-        setRotation(-90);
-        move(4);
-        }
-        if( Greenfoot.isKeyDown( "down" ) ){
-        setRotation(90);
-        move(4);
-        }*/
+        
     }    
 }

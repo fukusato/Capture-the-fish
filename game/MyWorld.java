@@ -86,9 +86,6 @@ public class MyWorld extends World
          
          addObject( new dustC(),x , y );
     }
-    
-  
-        showText( "HOGE", 100, 50 );
-        addObject( new fishA(), 200, 50 );        
+        showText( "HOGE", 100, 50 );      
     }
 }
