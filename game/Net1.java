@@ -13,7 +13,7 @@ public class Net1 extends Net
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     private int fish=0;
-
+    private int spd=2;
   
         
 
@@ -25,7 +25,26 @@ public class Net1 extends Net
         Actor actor3 = getOneObjectAtOffset( 0, 0, dustA.class );
         Actor actor4 = getOneObjectAtOffset( 0, 0, dustB.class );
         Actor actor5 = getOneObjectAtOffset( 0, 0, dustC.class );
+        Actor actor6 = getOneObjectAtOffset( 0, 0, item1.class );
+        
+        
 
+        int x = getX();
+        int y = getY();
+        if( actor6 != null ){
+            getWorld().removeObject( actor6 );
+            spd=spd+spd;
+        }
+        if( Greenfoot.isKeyDown( "left" ) ){
+           setLocation( x-1,y );
+           move(-spd);
+        }
+        if( Greenfoot.isKeyDown( "right" ) ){
+           setLocation( x+1,y );
+        
+           move(spd);
+        }
+        
         if( actor != null ){
             getWorld().removeObject( actor );
             fish=fish+3;
@@ -56,31 +75,9 @@ public class Net1 extends Net
             fish=fish-3;
             getWorld().showText("Score="+fish,200, 100);
 
-        if( actor3 != null ){
-            getWorld().removeObject( actor3 );
-            
-            for(int time=0;time<100;time++){
-                
-                   if( Greenfoot.isKeyDown( "left" ) ){
-                       
-                       move(-2);
-                    }
-                    if( Greenfoot.isKeyDown( "right" ) ){
-                       
-                    
-                       move(2);
-                    }
-                   
-               
-            }
-            
-            
-
-        
-
-        }
 
     }
+   
     }    
 
 
