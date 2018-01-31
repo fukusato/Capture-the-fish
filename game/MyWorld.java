@@ -20,6 +20,7 @@ public class MyWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(500, 800, 1); 
+        addObject( new Net1(),250 , 600 );
     }
     public void act(){
         int x = (int)(Math.random()*500);
@@ -29,7 +30,7 @@ public class MyWorld extends World
         showText( String.valueOf(time), 200, 50 );
         if( Greenfoot.isKeyDown( "a" ) )s = 1;
         if( Greenfoot.isKeyDown( "b" ) )s = 0;
-        if(time == 1){
+        if(time == 10){
          if(obj == 0)addObject( new fishA(), x, y );
          if(obj == 1)addObject( new fishB(), x, y );
          if(s != 1)if(obj == 2)addObject( new dustA(), x, y );
@@ -38,7 +39,6 @@ public class MyWorld extends World
          time = 0;
         }
         time++;
-        
     }
     
 }

@@ -13,7 +13,7 @@ public class dustC extends Dust
      * Act - do whatever the DustC wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    private int speed = 1;
+    private int speed = 3;
     public void act() 
     {
         if( Greenfoot.isKeyDown( "q" ) )speed = 10;
