@@ -12,11 +12,13 @@ public class fishA extends Fish
      * Act - do whatever the FishA wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    private int speed = 1;
     public void act() 
     {
         if(getY() == 799)getWorld().removeObject( this );
+        if( Greenfoot.isKeyDown( "q" ) )speed = 10;
         setRotation(90);
-        move(1);// Add your action code here   
+        move(speed);// Add your action code here   
 
     int y1=0;
     //for(int i=0;y==800;i++){
