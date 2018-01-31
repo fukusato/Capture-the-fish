@@ -13,6 +13,7 @@ public class Net extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     private int fish;
+    
     public Net()
     {
         fish=0;
@@ -42,5 +43,6 @@ if( Greenfoot.isKeyDown( "right" ) ){
 
    move(2);
 }
+
 }
 }
