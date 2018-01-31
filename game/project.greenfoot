@@ -39,6 +39,7 @@ target8.height=50
 =\=\=\=\=\=\=
 class.Dust.superclass=greenfoot.Actor
 #Wed Jan 31 09:58:44 JST 2018
+#Wed Jan 31 10:08:14 JST 2018
 target10.editor.width=900
 target2.width=80
 class.Fish.superclass=greenfoot.Actor
@@ -51,7 +52,7 @@ mainWindow.height=946
 target2.editor.y=152
 target6.typeParameters=
 target2.editor.x=940
-dependency9.to=Dust
+dependency9.to=dustC
 target1.height=50
 target8.y=190
 target8.x=10

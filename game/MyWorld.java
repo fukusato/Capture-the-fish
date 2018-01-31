@@ -15,7 +15,8 @@ public class MyWorld extends World
      * 
      */
     private int s = 0;
-    private int time = 0;
+    private int time = 45;
+    private int gameTimer;
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
@@ -30,15 +31,17 @@ public class MyWorld extends World
         showText( String.valueOf(time), 200, 50 );
         if( Greenfoot.isKeyDown( "a" ) )s = 1;
         if( Greenfoot.isKeyDown( "b" ) )s = 0;
-        if(time == 10){
+        if(gameTimer%11 == 10){
          if(obj == 0)addObject( new fishA(), x, y );
          if(obj == 1)addObject( new fishB(), x, y );
          if(s != 1)if(obj == 2)addObject( new dustA(), x, y );
          if(s != 1)if(obj == 3)addObject( new dustB(), x, y );
          if(s != 1)if(obj == 4)addObject( new dustC(), x, y );
-         time = 0;
         }
-        time++;
+        gameTimer = (gameTimer + 1) % 60;
+        if(gameTimer==0)time--;
+        if(time == -1)Greenfoot.stop();
+        
     }
     
 }
