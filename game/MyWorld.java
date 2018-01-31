@@ -40,7 +40,8 @@ public class MyWorld extends World
         }
         gameTimer = (gameTimer + 1) % 60;
         if(gameTimer==0)time--;
-        if(time == 0)Greenfoot.stop();
+        if(time == -1)Greenfoot.stop();
+        
     }
     
 }
