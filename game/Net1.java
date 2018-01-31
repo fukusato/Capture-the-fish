@@ -33,14 +33,6 @@ public class Net1 extends Net
 
         }
 
-        if( Greenfoot.isKeyDown( "right" ) ){
-        setRotation(0);
-        move(4);
-        }
-        if( Greenfoot.isKeyDown( "left" ) ){
-        setRotation(180);
-        move(4);
-    }
         }
     }    
 
