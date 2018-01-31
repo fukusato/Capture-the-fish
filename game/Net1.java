@@ -13,18 +13,8 @@ public class Net1 extends Net
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     private int fish=0;
-<<<<<<< HEAD
-    
-    public void cat() 
-    {
-        Actor actor = getOneObjectAtOffset( 0, 0, Fish.class );
-        Actor actor2 = getOneObjectAtOffset( 0, 0, Dust.class );
-        Actor actor3 = getOneObjectAtOffset( 0, 0, Item.class );
 
-        // Add your action code here
-=======
-
-        }
+  
         
 
 
@@ -36,7 +26,6 @@ public class Net1 extends Net
         Actor actor4 = getOneObjectAtOffset( 0, 0, dustB.class );
         Actor actor5 = getOneObjectAtOffset( 0, 0, dustC.class );
 
->>>>>>> 4a0f5b885de12bb00d319209485bd3ace0b20fe9
         if( actor != null ){
             getWorld().removeObject( actor );
             fish=fish+3;
@@ -85,17 +74,17 @@ public class Net1 extends Net
                
             }
             
-            getWorld().showText("アイテムget",300, 100);
+            
 
         
 
         }
-<<<<<<< HEAD
+
     }
     }    
-=======
->>>>>>> 4a0f5b885de12bb00d319209485bd3ace0b20fe9
+
 
 
     }
-}
+
+

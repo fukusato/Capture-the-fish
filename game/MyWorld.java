@@ -28,7 +28,7 @@ public class MyWorld extends World
         int y = (int)(Math.random()*100);
         int obj = (int)(Math.random()*6);
         int yy = 800 - y;
-        //showText( String.valueOf(time), 200, 50 );
+        showText( String.valueOf(time), 200, 50 );
         if( Greenfoot.isKeyDown( "a" ) )s = 1;
         if( Greenfoot.isKeyDown( "b" ) )s = 0;
         if(gameTimer%11 == 10){
@@ -37,11 +37,10 @@ public class MyWorld extends World
          if(s != 1)if(obj == 2)addObject( new dustA(), x, y );
          if(s != 1)if(obj == 3)addObject( new dustB(), x, y );
          if(s != 1)if(obj == 4)addObject( new dustC(), x, y );
-<<<<<<< HEAD
+
          if(obj == 5)addObject( new item1(), x, y );
-         time = 0;
-=======
->>>>>>> 4a0f5b885de12bb00d319209485bd3ace0b20fe9
+         
+
         }
         gameTimer = (gameTimer + 1) % 60;
         if(gameTimer==0)time--;
