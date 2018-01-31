@@ -33,7 +33,6 @@ public class Net1 extends Net
 
         }
 
-
-    }
-}
+        }
+    }    
 
