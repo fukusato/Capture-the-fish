@@ -19,7 +19,7 @@ public class Title extends World
         super(500, 800, 1); 
     }
     public void act(){
-        showText("PUSH SPACE KEY",250,400);
+        showText("PUSH SPACE KEY",250,600);
         if(Greenfoot.isKeyDown("space")){
             World world=new MyWorld();
             Greenfoot.setWorld(world);
