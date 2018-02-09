@@ -25,6 +25,12 @@ public class Net1 extends Net
         
     public void time(){
         rtime++;
+         if(rtime==200){
+                spd=2;
+                frag=0;
+                rtime=0;
+            
+        }
     }
 
     public void cat()
@@ -47,19 +53,13 @@ public class Net1 extends Net
             spd=spd2;
             frag=1;
         }
-        rtime++;
+        
         
         if(frag==1){
             time();
             //if(frag<500)rtime+=1;
             getWorld().showText( String.valueOf(rtime), 200, 100 );
-            
-                 if(rtime==400){
-                spd=2;
-                frag=0;
-                rtime=0;
-            
-        }
+
         }
         
         
