@@ -13,6 +13,7 @@ public class Net extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     private int fish;
+    
     public Net()
     {
         fish=0;
@@ -30,17 +31,7 @@ public class Net extends Actor
     
        public void move() 
     {
-        // Add your action code here.
-int x = getX();
-int y = getY();
-if( Greenfoot.isKeyDown( "left" ) ){
-   setLocation( x-1,y );
-   move(-2);
-}
-if( Greenfoot.isKeyDown( "right" ) ){
-   setLocation( x+1,y );
+ 
 
-   move(2);
-}
 }
 }

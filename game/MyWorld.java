@@ -37,11 +37,18 @@ public class MyWorld extends World
          if(s != 1)if(obj == 2)addObject( new dustA(), x, y );
          if(s != 1)if(obj == 3)addObject( new dustB(), x, y );
          if(s != 1)if(obj == 4)addObject( new dustC(), x, y );
+
+         if(obj == 5)addObject( new item1(), x, y );
+         
+
         }
         gameTimer = (gameTimer + 1) % 60;
         if(gameTimer==0)time--;
-        if(time == -1)Greenfoot.stop();
-        
+        if(time == -1){
+            Greenfoot.stop();
+            World world=new Result();
+            Greenfoot.setWorld(world);
+        }
     }
     
 }
