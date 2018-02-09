@@ -6,17 +6,26 @@ import greenfoot.*;
  * @author (your name)
  * @version (a version number or a date)
  */
+
+
+
+
 public class Net1 extends Net
 {
     /**
      * Act - do whatever the Net1 wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+
     private int fish=0;
     private int spd=2;
+    private int rtime=0;
+    private int frag=0;
   
         
-
+    public void time(){
+        rtime++;
+    }
 
     public void cat()
     {
@@ -31,10 +40,31 @@ public class Net1 extends Net
 
         int x = getX();
         int y = getY();
+        //int rtime=0;
+        int spd2=10;
         if( actor6 != null ){
             getWorld().removeObject( actor6 );
-            spd=spd+spd;
+            spd=spd2;
+            frag=1;
         }
+        rtime++;
+        
+        if(frag==1){
+            time();
+            //if(frag<500)rtime+=1;
+            getWorld().showText( String.valueOf(rtime), 200, 100 );
+            
+                 if(rtime==400){
+                spd=2;
+                frag=0;
+                rtime=0;
+            
+        }
+        }
+        
+        
+   
+        
         if( Greenfoot.isKeyDown( "left" ) ){
            setLocation( x-1,y );
            move(-spd);
