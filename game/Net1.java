@@ -21,7 +21,7 @@ public class Net1 extends Net
     private int spd=2;
     private int rtime=0;
     private int frag=0;
-  
+    private String tmp="Speed up!";
         
     public void time(){
         rtime++;
@@ -29,8 +29,10 @@ public class Net1 extends Net
                 spd=2;
                 frag=0;
                 rtime=0;
+                tmp= " ";
             
         }
+        
     }
 
     public void cat()
@@ -56,12 +58,14 @@ public class Net1 extends Net
         
         
         if(frag==1){
+            tmp="Speed up!";
             time();
-            getWorld().showText( "Speed up!", 300, 150 );
-            //if(frag<500)rtime+=1;
+            getWorld().showText( ""+tmp, 80, 50 );
+            
             
 
         }
+        
         //frag=0;
         
         
