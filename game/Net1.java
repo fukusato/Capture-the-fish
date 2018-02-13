@@ -57,10 +57,12 @@ public class Net1 extends Net
         
         if(frag==1){
             time();
+            getWorld().showText( "Speed up!", 300, 150 );
             //if(frag<500)rtime+=1;
-            getWorld().showText( String.valueOf(rtime), 200, 100 );
+            
 
         }
+        //frag=0;
         
         
    
